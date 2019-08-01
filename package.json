@@ -1,11 +1,11 @@
 {
-  "name": "nested-data-exercises",
+  "name": "exercise-template",
   "version": "1.0.2",
   "description": "practice array & data-structure skills here!",
   "main": "index.js",
-  "homepage": "https://codesandbox.io/s/github/justsml/nested-data-exercises?previewwindow=tests",
+  "homepage": "https://codesandbox.io/s/github/LambdaSchool/exercise-template?previewwindow=tests",
   "repository": {
-    "url": "git@github.com:justsml/nested-data-exercises.git",
+    "url": "git@github.com:LambdaSchool/exercise-template.git",
     "type": "git"
   },
   "scripts": {
