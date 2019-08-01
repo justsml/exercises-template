@@ -1,8 +1,8 @@
-////// DO NOT MODIFY THIS FILE //////
-////// DO NOT MODIFY THIS FILE //////
-////// DO NOT MODIFY THIS FILE //////
-////// DO NOT MODIFY THIS FILE //////
-////// DO NOT MODIFY THIS FILE //////
+////// STUDENTS: DO NOT MODIFY THIS FILE //////
+////// STUDENTS: DO NOT MODIFY THIS FILE //////
+////// STUDENTS: DO NOT MODIFY THIS FILE //////
+////// STUDENTS: DO NOT MODIFY THIS FILE //////
+////// STUDENTS: DO NOT MODIFY THIS FILE //////
 
 
 /* eslint-env mocha */
@@ -21,6 +21,9 @@ if (typeof exports !== 'undefined') {
 }
 var expect = chai.expect
 
+// TODO: Add test `describe` blocks here
+
+// Example:
 describe('getName()', () => {
   it('expected name for `Luke`', () => { expect(getName(lukeSkywalker)).to.eq(`Luke Skywalker`) })
   // it('expected name for `Leia`', () => { expect(getName(leiaOrgana)).to.eq(`Leia Organa`) })
@@ -28,4 +31,3 @@ describe('getName()', () => {
 })
 
 
-// TODO: Add test `describe` blocks here

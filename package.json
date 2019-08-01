@@ -1,16 +1,16 @@
 {
-  "name": "exercise-template",
-  "version": "1.0.2",
-  "description": "practice array & data-structure skills here!",
+  "name": "exercises-template",
+  "version": "1.0.0",
+  "description": "TODO: REPLACE ALL {gitHubOrgName} AND {gitHubProjectName} BELOW",
   "main": "index.js",
-  "homepage": "https://codesandbox.io/s/github/LambdaSchool/exercise-template?previewwindow=tests",
+  "homepage": "https://codesandbox.io/s/github/{gitHubOrgName}/{gitHubProjectName}?previewwindow=tests",
   "repository": {
-    "url": "git@github.com:LambdaSchool/exercise-template.git",
+    "url": "git@github.com:{gitHubOrgName}/{gitHubProjectName}.git",
     "type": "git"
   },
   "scripts": {
+    "dev": "./node_modules/.bin/lite-server",
     "start": "NODE_OPTIONS=--no-warnings ./node_modules/.bin/mocha ./test",
-    "build": "npx browserify ./data/people-export.js -o ./data/fixtures-bundle.js",
     "pretest": "NODE_OPTIONS=--no-warnings npm install > /dev/null",
     "test": "NODE_OPTIONS=--no-warnings ./node_modules/.bin/mocha ./test",
     "test:watch": "./node_modules/.bin/mocha --growl --reporter=list --bail --watch './test'"

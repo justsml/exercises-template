@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Array Exercises</title>
+    <title>Exercises</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="data/fixtures-bundle.js"></script>
+    <script>
+    // TODO: (Optional) link up data for browser tests
+    getData()
+
+    function getData() {
+      return fetch('data/person-1.json')
+        .then(res => res.json())
+        .then(data => {
+          window.lukeSkywalker = data
+        })
+    }
+    </script>
     <script>
     function showInstallMessage() {
       const msg = 'ERROR: Expected modules failed to load (chai, mocha)!!!\n\nHOW TO FIX: Run `npm install` in terminal from this project\'s folder.'
