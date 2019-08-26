@@ -9,6 +9,8 @@
 if (typeof exports !== 'undefined') {
   // IGNORE: Test/Env Detection Stuff //
   // Node/Non-browser test env
+  
+  // TODO: Add any json/data imports
   var lukeSkywalker = require('../data/person-1.json')
   // var leiaOrgana = require('../data/person-5.json')
   // var obiWanKenobi = require('../data/person-10.json')
